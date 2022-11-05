@@ -1,0 +1,431 @@
+ <div>
+				{/* <div id="preloder">
+					<div className="loader"></div>
+				</div> */}
+
+				<header className="header-section header-bg-2">
+					<a href="index.html" className="site-logo">
+						<img src={require("../img/logo.png")} alt="" />
+					</a>
+					<nav className="header-nav">
+						<ul className="main-menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="about-us.html">About</a>
+							</li>
+							<li>
+								<a href="#">Buy</a>
+							</li>
+							<li>
+								<a href="#">Pages</a>
+								<ul className="sub-menu">
+									<li>
+										<a href="about-us.html">About Us</a>
+									</li>
+									<li>
+										<a href="search-result.html">Search Result</a>
+									</li>
+									<li>
+										<a href="single-property.html">Property</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="news.html">News</a>
+							</li>
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
+						</ul>
+						<div className="header-right">
+							<div className="user-panel">
+								<a href="#" className="login">
+									Sign in
+								</a>
+								<a href="#" className="register">
+									Join us
+								</a>
+							</div>
+						</div>
+					</nav>
+				</header>
+
+				<section
+					className="page-top-section set-bg img-bg"
+					// data-setbg={}
+				>
+					<div className="page-top-warp">
+						<form className="main-search-form">
+							<div className="search-type">
+								<div className="st-item">
+									<input type="radio" name="st" id="buy" />
+									<label >Buy</label>
+								</div>
+								<div className="st-item">
+									<input type="radio" name="st" id="rent" />
+									<label >Rent</label>
+								</div>
+								<div className="st-item">
+									<input type="radio" name="st" id="sell" />
+									<label >Sell</label>
+								</div>
+								<div className="st-item">
+									<input type="radio" name="st" id="property" />
+									<label >Property Value</label>
+								</div>
+								<div className="st-item">
+									<input type="radio" name="st" id="agents" />
+									<label >Agents</label>
+								</div>
+							</div>
+							<div className="search-input si-v-2">
+								<input
+									type="text"
+									placeholder="Search by state, postcode or suburb"
+								/>
+								<button className="site-btn" type="submit">
+									Search
+								</button>
+								<button className="site-btn sb-light">Show Filters</button>
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+								ipsum suspendisse ultrices gravida.
+							</p>
+						</form>
+					</div>
+				</section>
+
+				<section className="single-property-section spad">
+					<div className="container">
+						<div className="row">
+							<div className="col-lg-8">
+								<div className="single-property">
+									<div className="sp-image">
+										<img src={require("../img/property/big.jpg")} alt="" />
+										<div className="sp-badge new">New</div>
+									</div>
+									<div className="row">
+										<div className="col-lg-8">
+											<div className="property-header">
+												<h3>2768 Clousson Road</h3>
+												<h5>Houston, TX 77002 </h5>
+											</div>
+										</div>
+										<div className="col-lg-4 text-left text-lg-right">
+											<div className="property-header">
+												<h3>$469,000</h3>
+												<p>3 Bedrooms Townhouse</p>
+											</div>
+										</div>
+									</div>
+									<div className="property-info-bar">
+										<div className="row">
+											<div className="col-lg-7">
+												<div className="pi-metas">
+													<div className="pi-meta">3 Bed </div>
+													<div className="pi-meta">2 Baths</div>
+													<div className="pi-meta">1 Garage</div>
+													<div className="pi-meta">2849 SF</div>
+												</div>
+											</div>
+											<div className="col-lg-5 text-left text-lg-right">
+												<a href="#" className="offer-btn">
+													Make an Offer
+												</a>
+											</div>
+										</div>
+									</div>
+									<div className="property-text">
+										<h4>Description</h4>
+										<p>
+											Donec eget efficitur ex. Donec eget dolor vitae eros
+											feugiat tristique id vitae massa. Proin vulputate congue
+											rutrum. Fusce lobortis a enim eget tempus. ClassName aptent
+											taciti sociosqu ad litora torquent per conubia nostra, per
+											inceptos himenaeos. Suspendisse potenti. Ut gravida mattis
+											magna, non varius lorem sodales nec. In libero orci,
+											ornare non nisl a, auctor euismod purus. Morbi pretium
+											interdum vestibulum. Fusce nec eleifend ipsum. Sed non
+											blandit tellus.
+										</p>
+										<h4>Details</h4>
+										<p>
+											Proin vulputate congue rutrum. Fusce lobortis a enim eget
+											tempus. ClassName aptent taciti sociosqu ad litora torquent
+											per conubia nostra, per inceptos himenaeos. Suspendisse
+											potenti. Ut gravida mattis magna, non varius lorem sodales
+											nec. In libero orci, ornare non nisl a, auctor euismod
+											purus. Morbi pretium interdum vestibulum. Fusce nec
+											eleifend ipsum. Sed non blandit tellus.
+										</p>
+									</div>
+									<div className="property-feature">
+										<div className="row">
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>House Type</h6>
+													<p>Family</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Stories</h6>
+													<p>3</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Year Built</h6>
+													<p>2008</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>A/C</h6>
+													<p>Central</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Heating</h6>
+													<p>Forced Air</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Bathrooms</h6>
+													<p>2</p>
+												</div>
+											</div>
+										</div>
+										<div className="row">
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Pool</h6>
+													<p>Yes</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Fireplace</h6>
+													<p>No</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-3">
+												<div className="pf-box">
+													<h6>Parking Spaces</h6>
+													<p> 2 spaces</p>
+												</div>
+											</div>
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Parking Type</h6>
+													<p>Garage</p>
+												</div>
+											</div>
+										</div>
+										<div className="row">
+											<div className="col-6 col-sm-4 col-md-3 col-lg-2">
+												<div className="pf-box">
+													<h6>Patio</h6>
+													<p>128 SQ</p>
+												</div>
+											</div>
+											<div className="col-6 col-lg-3">
+												<div className="pf-box">
+													<h6>Playgroung</h6>
+													<p>No</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div className="video-item">
+									<img src={require("../img/video-img.jpg")} alt="" />
+									<a
+										href="https://www.youtube.com/watch?v=Sz_1tkcU0Co"
+										className="video-play"
+									>
+										<span className="i fa fa-play"></span>
+									</a>
+								</div>
+								<div className="loan-calculator">
+									<h4>Loan Calculator</h4>
+									<div className="row">
+										<div className="col-md-4">
+											<input
+												type="text"
+												placeholder="Purchase Price"
+												id="lc-price"
+											/>
+										</div>
+										<div className="col-md-4">
+											<input
+												type="text"
+												placeholder="Interest Rate"
+												id="lc-interest"
+											/>
+										</div>
+										<div className="col-md-4">
+											<input
+												type="text"
+												placeholder="Down Payment"
+												id="lc-dpay"
+											/>
+										</div>
+										<div className="col-md-12">
+											<div className="loan-cal-result">
+												Weekly Payments: <span id="lc-result">$0.00</span>
+											</div>
+											<div className="text-left text-sm-right">
+												<button className="site-btn sb-big" id="lc-submit">
+													Apply for pre-Qualification
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-4 col-md-8 sidebar">
+								<div className="agent-widget">
+									<img src={require("../img/agents/1.jpg")} alt="" />
+									<div className="aw-text">
+										<h4>Christinne James</h4>
+										<h6>Real Estate Agent</h6>
+										<p>
+											Fusce lobortis a enim eget tempus. ClassName aptent taciti
+											sociosqu ad litora. Donec eget efficitur ex. Donec eget
+											dolor vitae eros feugiat tristique id vitae massa.{' '}
+										</p>
+										<a href="#" className="readmore-btn">
+											Contact the agent
+										</a>
+									</div>
+								</div>
+								<div className="map-widget">
+									<iframe
+										src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14376.077865872314!2d-73.879277264103!3d40.757667781624285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1546528920522"
+										style={{border:"0"}}
+									></iframe>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<footer className="footer-section">
+					<div className="container">
+						<div className="row text-white">
+							<div className="col-lg-4">
+								<div className="footer-widger">
+									<div className="about-widget">
+										<div className="aw-text">
+											<img src={require("../img/footer-logo.png")} alt="" />
+											<p>
+												Donec eget efficitur ex. Donec eget dolor vitae eros
+												feugiat tristique id vitae massa. Proin vulputate cong
+												ue rutrum. Fusce lobortis a enim eget tempus.{' '}
+											</p>
+											<a href="#" className="site-btn">
+												we are hiring
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-2 col-md-3 col-sm-6">
+								<div className="footer-widger">
+									<h2>Company</h2>
+									<ul>
+										<li>
+											<a href="#">About us</a>
+										</li>
+										<li>
+											<a href="#">Services</a>
+										</li>
+										<li>
+											<a href="#">Clients</a>
+										</li>
+										<li>
+											<a href="#">Testimonials</a>
+										</li>
+										<li>
+											<a href="#">Carrers</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div className="col-lg-2 col-md-3 col-sm-6">
+								<div className="footer-widger">
+									<h2>For Buyers</h2>
+									<ul>
+										<li>
+											<a href="#">Buy with us</a>
+										</li>
+										<li>
+											<a href="#">Papers</a>
+										</li>
+										<li>
+											<a href="#">Clients</a>
+										</li>
+										<li>
+											<a href="#">Testimonials</a>
+										</li>
+										<li>
+											<a href="#">Homes</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div className="col-lg-2 col-md-3 col-sm-6">
+								<div className="footer-widger">
+									<h2>For Sellers</h2>
+									<ul>
+										<li>
+											<a href="#">Seel With us</a>
+										</li>
+										<li>
+											<a href="#">What do You Need</a>
+										</li>
+										<li>
+											<a href="#">Clients</a>
+										</li>
+										<li>
+											<a href="#">Testimonials</a>
+										</li>
+										<li>
+											<a href="#">Guideline</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div className="col-lg-2 col-md-3 col-sm-6">
+								<div className="footer-widger">
+									<h2>For Renters</h2>
+									<ul>
+										<li>
+											<a href="#">Rent with us</a>
+										</li>
+										<li>
+											<a href="#">Guidelines</a>
+										</li>
+										<li>
+											<a href="#">Apartments</a>
+										</li>
+										<li>
+											<a href="#">Flats</a>
+										</li>
+										<li>
+											<a href="#">Houses</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+		</div>
